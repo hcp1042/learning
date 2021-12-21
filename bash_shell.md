@@ -8,3 +8,9 @@
  \> Redirect output to another file
  
  | pipeline, ways to connect inputs
+ 
+ 
+ wildcard \* match 0 or more characters
+ ? matches exactly one character
+ 
+ [...] matches any one of the characters inside the square brackets

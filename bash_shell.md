@@ -5,6 +5,6 @@
  good practice to have a space between flag and its parameter
  
  
- > Redirect output to another file
+ \> Redirect output to another file
  
  | pipeline, ways to connect inputs

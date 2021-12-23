@@ -14,3 +14,50 @@
  ? matches exactly one character
  
  [...] matches any one of the characters inside the square brackets
+
+
+wc  -l count line
+
+cut    select certain fields from data
+grep   select certain rows
+
+sort
+
+unique
+
+
+
+**Batch Processing**
+
+
+Environment variable
+
+To see all use 'set'
+
+echo    -  check value of env variable, add $ sign before variable
+
+
+To create a shell variable, you simply assign a value to a name:
+
+training=seasonal/summer.csv
+
+without any spaces before or after the = sign
+
+
+
+
+Loop
+
+for var in list; do command $var; done
+
+can use pipe in the do part
+
+remember to add dollar sign when retriving the value of a variable
+
+
+can use single quote or double quote around file names
+
+can also assign multiple commands for a loop, need to separate commands with semicolon
+
+
+

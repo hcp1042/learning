@@ -1,3 +1,12 @@
+ ~ stands for home directory
+ 
+ \# for comment
+ 
+ cat - 
+ man - 'manual' 
+ 
+ use ctrl + c to stop the program
+ 
  Flag
  
  good practice to put flag before file and other input
@@ -14,6 +23,7 @@
  ? matches exactly one character
  
  [...] matches any one of the characters inside the square brackets
+ {...,...} matches either element in the bracket
 
 
 wc  -l count line
@@ -21,9 +31,9 @@ wc  -l count line
 cut    select certain fields from data
 grep   select certain rows
 
-sort
+sort -r for reverse sort
 
-unique
+uniq
 
 
 
@@ -46,7 +56,7 @@ without any spaces before or after the = sign
 
 
 
-Loop
+**Loop**
 
 for var in list; do command $var; done
 
@@ -58,6 +68,17 @@ remember to add dollar sign when retriving the value of a variable
 can use single quote or double quote around file names
 
 can also assign multiple commands for a loop, need to separate commands with semicolon
+
+
+
+### Creating new tools
+
+nano - text editor, ^o to save, ^x to quit
+
+save commands to xxx.sh, bash xxx.sh to run
+
+
+pass filenames to scripts    "$@" to bear the name passed from the command line
 
 
 

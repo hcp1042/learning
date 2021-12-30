@@ -2,12 +2,13 @@
  
  \# for comment
  
- cat - 
+ cat - reads files sequentially, writing them to standard output
+ 
  man - 'manual' 
  
  use ctrl + c to stop the program
  
- Flag
+ **Flag**
  
  good practice to put flag before file and other input
  
